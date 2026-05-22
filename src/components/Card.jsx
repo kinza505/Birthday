@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Cake, Sparkles, GraduationCap, MailOpen } from "lucide-react";
 
 // Image path
-import sirImage from "../assets/sirnadeem.png";
+import sirImage from "/src/assets/sirnadeem.png";
 
 const BirthdayCard = () => {
   const [showConfetti, setShowConfetti] = useState(false);
